@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profil{
+    width: 700px;
+    text-align: center;
+    margin: auto; /*untuk membuat profil ditengah secara vertical*/
+    padding-bottom: 20px;
+}
+
+.profil img{
+    border-radius: 50%;
+    width: 200px; /*mengatur lebar foto*/
+    height: 200px; /**mengatur tinggi foto*/
+    margin: 20px; /*agar ada space di bagian atas foto*/
+}
+
+.galeri{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.kartu-aktivitas{
+    margin: 10px; /*bagian dari box model*/
+    background-color: pink;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25%;
+    flex-basis: 1;
+}
+
+.kartu-aktivitas:hover{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(212, 26, 184, 0.5);
+    border-color: magenta;
+}
