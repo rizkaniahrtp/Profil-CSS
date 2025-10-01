@@ -1,5 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    backround-color: cream;
 }
 
 #header{
@@ -18,15 +21,15 @@ body{
 .profil{
     width: 700px;
     text-align: center;
-    margin: auto; /*untuk membuat profil ditengah secara vertical*/
+    margin: auto; 
     padding-bottom: 20px;
 }
 
 .profil img{
     border-radius: 50%;
-    width: 200px; /*mengatur lebar foto*/
-    height: 200px; /**mengatur tinggi foto*/
-    margin: 20px; /*agar ada space di bagian atas foto*/
+    width: 200px; 
+    height: 200px; 
+    margin: 20px; 
 }
 
 .galeri{
@@ -37,7 +40,7 @@ body{
 }
 
 .kartu-aktivitas{
-    margin: 10px; /*bagian dari box model*/
+    margin: 10px; 
     background-color: pink;
     padding: 10px;
     border: 2px solid black;
